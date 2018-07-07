@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home",
+    "pages/charge/charge",
+    "pages/bill/bill"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "backgroundColor": "#f8f8f8",
+    "navigationBarTitleText": "SJTU 校园卡",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#35495e",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/home",
+        "iconPath": "icons/outline_home_black_18dp.png",
+        "selectedIconPath": "icons/baseline_home_black_18dp.png"
+      },
+      {
+        "text": "充值",
+        "pagePath": "pages/charge/charge",
+        "iconPath": "icons/outline_account_balance_wallet_black_18dp.png",
+        "selectedIconPath": "icons/baseline_account_balance_wallet_black_18dp.png"
+      },
+      {
+        "text": "账单",
+        "pagePath": "pages/bill/bill",
+        "iconPath": "icons/outline_home_black_18dp.png",
+        "selectedIconPath": "icons/baseline_home_black_18dp.png"
+      }
+    ]
+  }
+}
